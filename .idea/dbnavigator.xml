@@ -24,7 +24,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="3893de37-120a-4d17-bf00-59a2af9d319b">
+        <schema name="acc.db" object-types="table, view, procedure, function, constraint, index, column, dataset trigger" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="3893de37-120a-4d17-bf00-59a2af9d319b">
@@ -39,6 +43,7 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="3893de37-120a-4d17-bf00-59a2af9d319b" dataset="acc.db.member" active-filter-id="" />
+    <filter-actions connection-id="3893de37-120a-4d17-bf00-59a2af9d319b" dataset="acc.db.miles_account" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
