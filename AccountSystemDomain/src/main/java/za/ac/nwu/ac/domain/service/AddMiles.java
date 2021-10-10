@@ -11,6 +11,8 @@ public class AddMiles {
         String username = "root";
         String password = "@N00dl3-klein";
 
+        String startDate = "dd/MM/yyyy";
+
         Connection cnn = DriverManager.getConnection(jdbcURL, username, password);
 
         String sql = "INSERT INTO miles_account(acc_id, mem_id, miles_balance)";
